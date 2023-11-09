@@ -1,0 +1,41 @@
+* {
+    font-family: Helvetica;
+}
+h1 {
+    background-image: url(./pattern.jpeg);
+    color: white;
+    font-size: 100px;
+    text-align: center;
+}
+
+.article1 h2 {
+    background-color: aqua;
+    color: white;
+    font-size: 32px;
+}
+
+.article2 h2 {
+    background-color: rgb(255, 120, 147);
+    color: white;
+    font-size: 32px;
+}
+
+.article3 h2 {
+    background-color: rgb(120, 255, 251);
+    color: white;
+    font-size: 32px;
+}
+.style figure {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+.style figcaption {
+    font-size: 22px;
+}
+
+
+.style figcaption span {
+    font-weight: bold;
+}
+

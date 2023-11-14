@@ -1,0 +1,45 @@
+header {
+    display: grid;
+    justify-items: center;
+}
+header h1 {
+    text-transform: uppercase;
+}
+main {
+    display: grid;
+    justify-items: center;
+}
+main img {
+    height: 100px;
+}
+hr {
+    height: 1px; 
+    width: 100%; 
+    color: black; 
+    border: solid;
+}
+footer {
+    display: grid;
+    justify-content: space-evenly;
+}
+footer p span {
+    font-weight: bold; 
+    color: #ff4500;
+    align-items: center;
+}
+
+table {
+    border: 1px black solid;
+    
+}
+table th {
+    border: 1px black solid;
+}
+table tr {
+    border: 1px rebeccapurple solid;
+    background-color: gainsboro;
+}
+table td {
+    border: 1px red solid;
+    background-color: aqua;
+}

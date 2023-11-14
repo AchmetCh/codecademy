@@ -4,14 +4,168 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./resources/styles.css">
 </head>
 <body>
-    <header>
-      <h1> HTML Table Reference</h1>
-      <h2> Table Tags</h2>
+    <header >
+      <h1>html-css-cheatsheet-starting</h1>
     </header>
     <main>
-      
+      <img src="./resources/html5.png">
+      <h2>Basic HTML Cheatsheet</h2>
+      <table>
+        <tr>
+          <th>&lt;html&gt; &lt;/html&gt</th>
+          <th>&lt;head&gt; &lt;/head&gt;</th>
+          <th>&lt;body&gt; &lt;/body&gt;</th>
+        </tr>
+        <tr>
+          <td>Creates an HTML document</td>
+          <td>Sets off the title & other info that isn't displayed</td>
+          <td>Sets off the visible portion of the document</td>
+        </tr>
+        <tr>
+          <th>&lt;title&gt; &lt;/title&gt</th>
+          <th>&lt;h1-h6&gt; &lt;/h1-h6&gt;</th>
+          <th>&lt;table&gt; &lt;/table&gt;</th>
+        </tr>
+        <tr>
+          <td>Puts name of the document in the title bar; when
+            bookmarking pages, this is what is bookmarked</td>
+          <td>Creates headlines -- H1=largest, H6=smallest</td>
+          <td>Creates a table</td>
+        </tr>
+        <tr>
+          <th>&lt;tr&gt; &lt;/tr&gt</th>
+          <th>&lt;td&gt; &lt;/td&gt;</th>
+          <th>&lt;th&gt; &lt;/th&gt;</th>
+        </tr>
+        <tr>
+          <td>Sets off each row in a table</td>
+          <td>Sets off each cell in a row</td>
+          <td>Sets off the table header (a normal cell with bold,
+            centered text)</td>
+        </tr>
+        <tr>
+          <th>&lt;tr&gt; &lt;/tr&gt</th>
+          <th>&lt;td&gt; &lt;/td&gt;</th>
+          <th>&lt;th&gt; &lt;/th&gt;</th>
+        </tr>
+        <tr>
+          <td>Sets off each row in a table</td>
+          <td>Sets off each cell in a row</td>
+          <td>Sets off the table header (a normal cell with bold,
+            centered text)</td>
+        </tr>
+        <tr>
+          <th>&lt;p&gt; &lt;/p&gt</th>
+          <th>&lt;br&gt; &lt;/br&gt;</th>
+          <th>&lt;span&gt; &lt;/span&gt;</th>
+        </tr>
+        <tr>
+          <td>Creates a new paragraph</td>
+          <td>AInserts a line break (carriage return)</td>
+          <td>Used to format inline content with CSS</td>
+        </tr>
+      </table>
+      <br>
+      <hr>
+      <img style="height: 100px;" src="./resources/css.webp">
+      <h2>Basic CSS Cheatsheet</h2>
+      <table>
+        <tr>
+          <th>Font-Family</th>
+          <th>Font-Style</th>
+          <th>Font-Weight</th>
+        </tr>
+        <tr>
+          <td>Changes the font family of certain words, sentences,
+            paragraphs, etc.</td>
+          <td>SChanges text: normal, oblique, and italics.
+            H1 { font-style: oblique; }
+            P { font-style: normal; } </td>
+          <td>Used to specify the weight of the font.
+            H1 { font-weight: 800; } or P { font-weight: normal; }</td>
+        </tr>
+        <tr>
+          <th>Color</th>
+          <th>Background-Color</th>
+          <th>Background-Image</th>
+        </tr>
+        <tr>
+          <td>Changes the color of text.
+            H1 { color: blue; } or H2 { color: #000080; }</td>
+          <td>Sets the background color of an element.
+            BODY { background-color: white; }
+            H1 { background-color: #000080; }</td>
+          <td>Sets the background image of an element.
+            BODY { background-image: url(/images/foo.gif); }
+            P { background-image: url(http://www.htmlhelp.com/bg.png); } 
+            </td>
+        </tr>
+        <tr>
+          <th>Clear</th>
+          <th>Width</th>
+          <th>Height</th>
+        </tr>
+        <tr>
+          <td>Specifies whether an element allows floating elements to its
+            sides (left, right, none).
+            P { clear: left; }
+            H1 { clear: right; }
+            .foo { clear: none; }</td>
+          <td>Each block-level or replaced element can be given a width,
+            specified as a length, a percentage, or as auto.
+            P { width: 15px; }
+            H1 { width: 35%; }
+            .foo { width: auto; }</td>
+          <td>Each block-level or replaced element can be given a height,
+            specified as a length or as auto.
+            P { height: 15px; }
+            H1 { height: 35%; }
+            .foo { height: auto; }</td>
+        </tr>
+        <tr>
+          <th>Margin</th>
+          <th>Padding</th>
+          <th>Border</th>
+        </tr>
+        <tr>
+          <td>Sets the margins of an element by specifying top, bottom, left
+            and right margins -- all either specifying length or percentage.
+            BODY { margin: 5em; } /* all margins 5em */
+            P { margin: 2em 4em; } /* top & bottom 2em, left & right 4em */
+            DIV { margin: 1em 2em 3em 4em; }
+            /* top margin 1em, right 2em, bottom 3em, left 4em */</td>
+          <td>Shorthand for the padding-top, padding-right, padding-bottom,
+            and padding-left properties.
+            BLOCKQUOTE { padding: 2em 4em 5em 4em; }</td>
+          <td>Sets the width, style, and color of an element's border.
+            P { border: 10px, red, double; }</td>
+        </tr>
+        <tr>
+          <th>Text-Decoration</th>
+          <th>Text-Transform</th>
+          <th>Text-Align</th>
+        </tr>
+        <tr>
+          <td>Allows text to be decorated through one of five properties:
+            underline, overline, line-through, blink, none.
+            A:link, A:visited, A:active { text-decoration: none; }</td>
+          <td>Allows for capitalizing the first letter of each word (capitalize),
+            capitalizing all letters of a word (uppercase), using all small
+            letters in each word(lowercase), and the inital value(none).
+            H1 { text-transform: uppercase; }
+            H2 { text-transform: capitalize; }</td>
+          <td>Used to justify text left, center, right, and justify.
+            H1 { text-align: center; }
+            P.newspaper { text-align: justify; }</td>
+        </tr>
+      </table>
     </main>
+    <footer>
+      <p>This cheatsheet brought to you by your friendly neighborhood developer.</p>
+        <p>Remember: <span>&lt;/&gt;</span> is the closest thing to magic in coding!</p>
+    </footer>
 </body>
 </html>

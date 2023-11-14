@@ -34,12 +34,14 @@ table {
 }
 table th {
     border: 1px black solid;
+    background-color: black;
+    color: white;
 }
 table tr {
     border: 1px rebeccapurple solid;
     background-color: gainsboro;
 }
 table td {
-    border: 1px red solid;
-    background-color: aqua;
+    border: 1px rgb(0, 0, 0) solid;
+    background-color: hsla(48, 7%, 86%, 0.32);
 }

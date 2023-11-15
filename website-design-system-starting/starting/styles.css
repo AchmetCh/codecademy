@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 2%;
+}
+
+.colors {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.but {
+  display: flexbox;
+  width: 32%;
+  font-size: larger;
+  text-align: center;
+  margin: 20px auto;
+  min-height: 100px;
+  border: 1px solid black;
+}
+
+
+.blue {
+    color: white;
+     background-color: #2d5dcc;
+}
+
+.pink {
+    color: black;
+     background-color: #d957d9;
+}
+
+.mint {
+    color: black;
+     background-color: #4fe0b0;
+}
+
+.beige {
+    color: black;
+     background-color: #efd9ca;
+}
+
+.fonts {
+    display: block;
+    width: 32%;
+    font-size: 20px;
+    text-align: left;
+    margin: 20px auto;
+    min-height: 100px;
+  }
+
+  .sourceCodePro {
+    font-family: "Source Code Pro";
+  }
+  
+  .nunitoSans {
+    font-family: 'Nunito Sans';
+  }
+
+  .Poppins {
+    font-family: 'poppins';
+  }
+
+  p bold {
+    font-size: 25px;
+  }
+
+  h2 p {
+    font-size: 20px;
+    line-height: 10px;
+  }
+
+  .textstyles {
+    font-size: 20px;
+  }

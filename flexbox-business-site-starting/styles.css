@@ -1,0 +1,136 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    background-color: beige;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+
+
+@media only screen and (max-width: 480px)  {
+    ul {
+        display: inline-block;
+        background-color: red;
+       
+    }
+}
+ul {
+    text-decoration: none;
+    display: inline-flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    padding-right: 50px;
+}
+li {
+    padding-right: 20px;
+    font-size: 25px;
+    padding-top: 15px;
+}
+li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+.banner {
+    background-image: url(./resources/background.jpg);
+    background-repeat: no-repeat;
+    height: 1000px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 480px) {
+    .banner {
+        background-image: url(./resources/background.jpg);
+        background-repeat: no-repeat;
+        height: 500px;
+        width: 480px;
+    }
+    h1 {
+        background-color: red;
+        font-size: 20px;
+        color: green;
+        border: 2px solid rgb(255, 255, 255);
+    }
+}
+h1 {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    border: 2px solid brown;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: beige;
+}
+.about p {
+    width: 800px;
+    font-size: 18px;
+}
+
+.galleryh2 {
+    display: flex;
+    justify-content: center;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: center;
+}
+
+#gallery media {
+    margin-right: 10px;
+}
+
+figcaption {
+    align-items: center;
+}
+
+#contactus {
+   display: flex;
+   justify-content: center;
+   background-color: beige;
+}
+
+#contactus > h3 {
+    font-size: 24px;
+}
+
+.hours {
+    display: flex;
+    flex-direction: column;
+}
+
+.hours p {
+    line-height: 3px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+footer {
+    background-color: silver;
+}
+
+@media only screen and (max-width: 480px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+}

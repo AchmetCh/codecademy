@@ -1,0 +1,83 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    background-color: beige;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+ul {
+    text-decoration: none;
+    display: inline-flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    padding-right: 50px;
+    font-size: 16px;
+}
+li {
+    padding-right: 50px;
+    font-size: 25px;
+    padding-top: 15px;
+    
+}
+li a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+li a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+#banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(./code.jpg);
+    background-repeat: no-repeat;
+    height: 1000px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+h1 {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    border: 2px solid brown;
+}
+#Projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+figcaption{
+    font-size: 25px;
+}
+
+#Projects media {
+    margin-right: 30px;
+    margin-top: 50px;
+}
+.myproject {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    font-size: 30px;
+    text-decoration: underline;
+    background-color: rgb(182, 178, 178);
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.generatorText {
+    border: 1px solid red;
+}
